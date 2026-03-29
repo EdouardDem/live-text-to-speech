@@ -1,0 +1,8 @@
+httpx
+sounddevice
+soundfile
+pynput
+pystray
+Pillow
+PyYAML
+numpy

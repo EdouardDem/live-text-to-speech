@@ -1,0 +1,5 @@
+hotkey: "<ctrl>+<shift>+a"
+server_url: "http://localhost:8000"
+model_name: "mistralai/Voxtral-4B-TTS-2603"
+voice: "fr_male"
+response_format: "wav"

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "live-tts"
+version = "0.1.0"
+description = "Live text-to-speech daemon using Mistral Voxtral on Linux"
+requires-python = ">=3.10"
+license = {text = "GPL-3.0"}
+dependencies = [
+    "httpx",
+    "sounddevice",
+    "soundfile",
+    "pynput",
+    "pystray",
+    "Pillow",
+    "PyYAML",
+    "numpy",
+]
+
+[project.scripts]
+live-tts = "live_tts.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
